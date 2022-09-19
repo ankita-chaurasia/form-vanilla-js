@@ -1,0 +1,131 @@
+
+.apnmt-form {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.form-input-item {
+    /* display: inline; */
+    width: 75%;
+    float: left;
+}
+
+.form-label-item {
+    float: right;
+    margin: 0.4rem;
+}
+
+
+body {
+    /* color: #242F9B; */
+    color: #2F8F9D;
+}
+
+section {
+    padding: 50px 0;
+}
+
+p {
+    margin: 1rem 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.section-headings {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 1rem 0 2rem;
+    text-align: center;
+}
+
+.nav-image {
+    height: 75px;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.nav-bg, #Footer {
+    background-color: #2F8F9D;
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    padding: 10px 50px;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+
+#Home, #FAQs {
+    background-color: #B3E8E5;
+    /* color: #242F9B; */
+    /* color: #2F8F9D; */
+}
+
+#AboutUs, #ContactUs {
+    background-color: #82DBD8;
+    /* color: #3BACB6; */
+}
+
+.rows {
+    padding: 5px 25px;
+}
+
+.au-image {
+    float: right;
+    height: 100px;
+    padding-right: 100px;
+}
+
+.au-p {
+    margin: 2rem 0;
+}
+
+.faq-q {
+    /* font-family: 'EB Garamond', serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.faq-a {
+    /* font-family: 'EB Garamond', serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.copyright {
+    color: #B3E8E5;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+}
+
+td {
+    background-color: #E4F5D4;
+    border: 1px solid black;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid black;
+}
