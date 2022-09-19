@@ -94,7 +94,7 @@ function saveAPI(){
    
      fetch('https://cf328215-07aa-4d32-86f4-517ee2d6c520.mock.pstmn.io/saveMortgage', {
       method: 'POST'}).then((response)=> {       
-             if (response.status >= 200 && response.status < 300) {                    
+             if (response.status >= 201 && response.status < 300) {                    
                  console.log(response);
                  alert("Entry saved successfully");
             }});
