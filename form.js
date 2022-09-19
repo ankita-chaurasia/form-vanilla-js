@@ -90,16 +90,16 @@ function callEditAPI(){
     });
 }
 
-function saveAPI(){
+// function saveAPI(){
    
-     fetch('https://cf328215-07aa-4d32-86f4-517ee2d6c520.mock.pstmn.io/saveMortgage', {
-      method: 'POST'}).then((response)=> {       
-             if (response.status >= 201 && response.status < 300) {                    
-                 console.log(response);
-                 alert("Entry saved successfully");
-            }})
-            .catch(error => {
-                this.setState({ errorMessage: error.toString() });
-                console.error('There was an error!', error);
-            });
-        }
+//      fetch('https://cf328215-07aa-4d32-86f4-517ee2d6c520.mock.pstmn.io/saveMortgage', {
+//       method: 'POST'}).then((response)=> {       
+//              if (response.status >= 200 && response.status < 300) {                    
+//                  console.log(response);
+//                  alert("Entry saved successfully");
+//             }})
+//             .catch(error => {
+//                 this.setState({ errorMessage: error.toString() });
+//                 console.error('There was an error!', error);
+//             });
+//         }
