@@ -97,5 +97,9 @@ function saveAPI(){
              if (response.status >= 201 && response.status < 300) {                    
                  console.log(response);
                  alert("Entry saved successfully");
-            }});
+            }})
+            .catch(error => {
+                this.setState({ errorMessage: error.toString() });
+                console.error('There was an error!', error);
+            });
         }
